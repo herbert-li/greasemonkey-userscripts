@@ -1,0 +1,33 @@
+<html>
+<head>
+<script type="text/javascript">
+function open_win() 
+{
+window1 = window.open("http://www.newrank.cn/public/info/detail.html?account=rrsksk", "rrsksk")
+window2 = window.open("http://www.newrank.cn/public/info/detail.html?account=iiuu77", "iiuu77")
+
+}
+
+function close_win() 
+{
+window1.close()
+window2.close()
+}
+
+function show_status() 
+{
+alert(window1.a);
+}
+
+</script>
+</head>
+
+<body>
+<form>
+<input type=button value="open webpages" onclick="open_win()">
+<input type=button value="show" onclick="show_status()">
+<input type=button value="close webpages" onclick="close_win()">
+</form>
+</body>
+
+</html>
